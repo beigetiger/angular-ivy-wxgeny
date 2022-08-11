@@ -1,0 +1,55 @@
+p {
+  font-family: Lato;
+}
+
+.page-style {
+  background-color: grey;
+}
+
+.card-style {
+  background-color: white;
+}
+
+.dash-style {
+  background-color: lightgray;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+.dash-table {
+  width: 100%;
+}
+
+.history-card {
+  font-size: 14pt;
+  font-weight: bold;
+  color: blue;
+}
+
+.details-card {
+  font-size: 14pt;
+  font-weight: bold;
+  color: green;
+}
+
+.status-card {
+  font-size: 14pt;
+  font-weight: bold;
+  color: red;
+}
+
+.status-onvehicle {
+  background-color: green;
+}
+
+.status-offvehicle {
+  background-color: red;
+}
+
+.status-wronglocation {
+  background-color: yellowgreen;
+}
