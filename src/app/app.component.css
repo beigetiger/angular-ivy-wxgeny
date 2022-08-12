@@ -7,7 +7,7 @@ p {
 }
 
 .card-style {
-  background-color: white;
+  background-color: grey;
 }
 
 .dash-style {
@@ -23,6 +23,7 @@ td {
 .dash-table {
   width: 100%;
 }
+
 
 .history-card {
   font-size: 14pt;
@@ -53,3 +54,5 @@ td {
 .status-wronglocation {
   background-color: yellowgreen;
 }
+
+

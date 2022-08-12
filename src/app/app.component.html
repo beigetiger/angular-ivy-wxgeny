@@ -1,16 +1,33 @@
 <div class="page-style">
   <div class="card-style">
-    <span><b><mat-label>Hauppauge FD vehicle 356</mat-label></b> </span>
+    <span
+      ><b>
+        <mat-label> Hauppauge FD vehicle 356 </mat-label>
+      </b>
+    </span>
     <table>
       <tr>
         <td>
           <span class="history-card">Event History Card</span>
+          <ul>
+            <li>Event 1</li>
+            <li>Event 2</li>
+            <li>Event 3</li>
+            <li>Event 4</li>
+          </ul>
         </td>
         <td>
           <span class="details-card">Vehicle Details Card</span>
+          <li>Vehicle Name</li>
+          <li>Station</li>
+          <li>Currnt Location</li>
+          <li>Last Reported</li>
         </td>
         <td>
           <span class="status-card">Vehicle status Card</span>
+          <li>Missing 1</li>
+          <li>OnVehicle Wrong Location 2</li>
+          <li>On Vehcle OK</li>
         </td>
       </tr>
     </table>
@@ -48,7 +65,7 @@
         </tr>
 
         <tr>
-          <td>HH Oscillatior</td>
+          <td><mat-label>HH Oscillatior</mat-label></td>
           <td>Right Front</td>
           <td class="status-offvehicle">Off Vehicle</td>
           <td>08:34</td>
@@ -57,5 +74,28 @@
         <tr></tr>
       </tbody>
     </table>
+  </div>
+
+  <div>
+    <mat-card class="card">
+      <mat-card-header>
+        <mat-card-title>
+          <div class="title" title="Title">Title</div>
+        </mat-card-title>
+        <mat-card-subtitle>Sub Title</mat-card-subtitle>
+        <!-- <mat-card-subtitle>{{item.code}}</mat-card-subtitle> -->
+        <mat-card-subtitle>
+          <div class="description" title="desc">desc</div>
+        </mat-card-subtitle>
+      </mat-card-header>
+
+      <mat-card-actions>
+        <div>
+          <button mat-stroked-button color="accent">Edit</button>
+          <!-- <button mat-stroked-button color="warn" (click)="onDelete(item)">Delete</button> -->
+          <button mat-stroked-button class="del_button">Delete</button>
+        </div>
+      </mat-card-actions>
+    </mat-card>
   </div>
 </div>
